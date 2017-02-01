@@ -13,6 +13,7 @@ var map;
   function init(){
     // initiate leaflet map
     map = new L.Map('map', { 
+	scrollWheelZoom: false,
       center: [40.7,-73.96],
       zoom: 11
     })
